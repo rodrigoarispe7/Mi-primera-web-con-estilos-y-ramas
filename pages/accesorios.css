@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+/*config*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    background-color:#78288c;
+}
+
+/*1era parte*/
+
+.navbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+    padding: 45px;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 20px;
+}
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-links li{
+    margin: 10px;
+    padding-bottom: 0px;
+    padding-right: 60px;
+    list-style: none;
+}
+
+
+.nav-links li .ctn{
+    padding: 45px;
+    margin-right: 5px;
+    height: 10px;
+    background: #78288c;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+
+
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+/*2da parte*/
+
+header{
+    width: 100vw;
+    height: 97vh;
+    background-image: url(../imagenes/fondos/fondo1a.jpg);
+    background-position: bottom;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+   
+   
+
+
+}div > div > img{
+    width: 250px;
+    padding: 10px;
+
+}
+
+
+/*3era parte*/
+
+.content-col h1{
+   
+    color: whitesmoke;
+    background-color: #78288c;
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+}
+
+.line-1{
+    width: 445px;
+    height: 5px;
+    background: #fc036b;
+    margin-top: 37px;
+    margin-left: 430px;
+    border-radius: 5px;
+    position: absolute;
+
+}
+
+.content-col p{
+    width: 250px;
+    height: 580px;
+    background-color: #78288c;
+    float: left;
+}
+
+
+.img1{
+    height: 160px;
+    width: 190px;
+    border-radius: 40px;
+}
+
+
+.image-galerry-1 {
+    float: left;
+    background-color: #FFA500;
+    height: 280px;
+    width: 210px;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 40px;
+      
+}
+
+.image-galerry-2 {
+    float: left;
+    background-color: #FFA500;
+    height: 280px;
+    width: 210px;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 40px;
+      
+}
+
+.image-galerry-3 {
+    float: left;
+    background-color: #FFA500;
+    height: 280px;
+    width: 210px;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 40px;
+      
+}
+
+.image-galerry-4 {
+    float: left;
+    background-color: #FFA500;
+    height: 280px;
+    width: 210px;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 40px;
+      
+}
+
+.image-galerry-5 {
+    float: left;
+    background-color: #FFA500;
+    height: 280px;
+    width: 210px;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 40px;
+      
+}
+
+.image-galerry-6 {
+    float: left;
+    background-color: #FFA500;
+    height: 280px;
+    width: 210px;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 40px;
+      
+}
+
+.image-galerry-7 {
+    float: left;
+    background-color: #FFA500;
+    height: 280px;
+    width: 210px;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 40px;
+      
+}
+
+.image-galerry-8 {
+    float: left;
+    background-color: #FFA500;
+    height: 280px;
+    width: 210px;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 40px;
+      
+}
+
+.image-galerry-9 {
+    float: left;
+    background-color: #FFA500;
+    height: 280px;
+    width: 210px;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 40px;
+      
+}
+
+.image-galerry-10 {
+    float: left;
+    background-color: #FFA500;
+    height: 280px;
+    width: 210px;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 40px;
+      
+}
+
+.image-galerry-1 h3{
+   
+    text-align: center;
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.image-galerry-2 h3{
+    text-align: center;
+    padding-right: 15px;
+    font-size: 25px;
+
+}
+
+.image-galerry-3 h3{
+    text-align: center;
+    padding-right: 15px;
+    font-size: 25px;
+
+}
+
+.image-galerry-4 h3{
+    text-align: center;
+    padding-right: 15px;
+    font-size: 25px;
+
+}
+
+.image-galerry-5 h3{
+    text-align: center;
+    padding-right: 15px;
+    font-size: 25px;
+
+}
+
+.image-galerry-6 h3{
+    text-align: center;
+    padding-right: 15px;
+    font-size: 25px;
+
+}
+
+.image-galerry-7 h3{
+    text-align: center;
+    padding-right: 15px;
+    font-size: 25px;
+
+}
+
+.image-galerry-8 h3{
+    text-align: center;
+    padding-right: 15px;
+    font-size: 25px;
+
+}
+
+.image-galerry-9 h3{
+    text-align: center;
+    padding-right: 15px;
+    font-size: 25px;
+
+}
+
+.image-galerry-10 h3{
+    text-align: center;
+    padding-right: 15px;
+    font-size: 25px;
+
+}
+
+.ctn-1{
+   
+    margin-top: 20px;
+    padding: 2px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    
+
+}
+
+.ctn2{
+   
+    
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 200px;
+    padding: 20px 80px;
+    margin: 0;
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    float: left;
+}
